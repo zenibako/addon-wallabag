@@ -3,8 +3,8 @@ ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:5.3.1
 FROM $BUILD_FROM
 
 # Set versions in ENV
-ENV NODE_VERSION=18
-ENV WALLABAG_VERSION=2.6.10
+ENV NODE_VERSION=22
+ENV WALLABAG_VERSION=2.6.13
 
 # Setup base
 # hadolint ignore=DL3008,DL4006
